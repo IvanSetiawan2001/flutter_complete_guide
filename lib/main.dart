@@ -24,7 +24,8 @@ class MyApp extends StatelessWidget {
               child: Text('Answer 1'),
             ),
             ElevatedButton(
-              onPressed: answerQuestion,
+              onPressed: () => print(
+                  'answer 2 choosen'), //another way to use function (anonymous function)
               child: Text('Answer 2'),
             ),
             ElevatedButton(
